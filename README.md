@@ -1,20 +1,20 @@
 # Versatile Landing, Blog & Docs Template for a Simplified Web Presence
 
-![ScrewFast](https://github.com/mearashadowfax/ScrewFast/assets/125820963/cdf299bd-414a-4a2d-baf0-d188bb4709c7)
+![SequoiaMC](https://github.com/SequoiaMC-CN/Website/assets/125820963/cdf299bd-414a-4a2d-baf0-d188bb4709c7)
 
-ScrewFast is an **open-source template** designed for quick and efficient web project setup, blending **minimalism with functionality**. Whether you're showcasing a portfolio, launching a company landing page, or running a blog, ScrewFast provides everything you need. By combining the power of the [Astro](https://astro.build/), [Tailwind CSS](https://tailwindcss.com/), and [Preline UI](https://preline.co/), this template offers a functional and aesthetically pleasing solution for your web presence.
+SequoiaMC is an **open-source template** designed for quick and efficient web project setup, blending **minimalism with functionality**. Whether you're showcasing a portfolio, launching a company landing page, or running a blog, SequoiaMC provides everything you need. By combining the power of the [Astro](https://astro.build/), [Tailwind CSS](https://tailwindcss.com/), and [Preline UI](https://preline.co/), this template offers a functional and aesthetically pleasing solution for your web presence.
 
 <p align="left">
-    <a href="https://screwfast.uk" target="_blank">
-      <img src="https://vyclk3sx0z.ufs.sh/f/hv6ttNERWpXu6c2AP0GCBnYt4h3FbsMuKyP5RxQ21HvzIae0" alt="ScrewFast Demo" width="180"/></a>
+    <a href="https://sequoiamc.cn" target="_blank">
+      <img src="https://vyclk3sx0z.ufs.sh/f/hv6ttNERWpXu6c2AP0GCBnYt4h3FbsMuKyP5RxQ21HvzIae0" alt="SequoiaMC Demo" width="180"/></a>
   &nbsp;&nbsp;&nbsp;
     <a href="https://atemplate.com/item/screwfast" target="_blank">
-      <img src="https://atemplate.com/badages-awards.svg" alt="ScrewFast | A template" width="180"/></a>
+      <img src="https://atemplate.com/badages-awards.svg" alt="SequoiaMC | A template" width="180"/></a>
 </p>
 
 ## Table of Contents
 
-* [Why Choose ScrewFast?](#why-choose-screwfast)
+* [Why Choose SequoiaMC?](#why-choose-screwfast)
 * [What's New](#whats-new)
 * [Getting Started](#getting-started)
   * [Installation](#installation)
@@ -57,7 +57,7 @@ ScrewFast is an **open-source template** designed for quick and efficient web pr
 * [Contributing](#contributing)
 * [License](#license)
 
-## Why Choose ScrewFast?
+## Why Choose SequoiaMC?
 
 * **Efficient Architecture:** Deploy faster with a template that's simple to set up and navigate.
 * **Optimized for Small Projects:** Perfect for crisp, professional web personas without excess complexity.
@@ -102,14 +102,14 @@ ScrewFast is an **open-source template** designed for quick and efficient web pr
 
 * [x] **Internationalization (i18n) Features**:
   * Integrates [Astro's i18n features](https://docs.astro.build/en/guides/internationalization/) and includes a custom `LanguagePicker` component.
-  * Developers can access the monolingual version directly from [`monolingual-site` branch](https://github.com/mearashadowfax/ScrewFast/tree/monolingual-site).
+  * Developers can access the monolingual version directly from [`monolingual-site` branch](https://github.com/SequoiaMC-CN/Website/tree/monolingual-site).
 
 * [x] **Dynamic Table of Contents (ToC) with Scroll Progress Indicator**:
   * Highlights the relevant section in the ToC with a scroll progress indicator. 
   * Developers seeking alternatives might consider the [remark-toc](https://github.com/remarkjs/remark-toc) plugin.
 
 > [!NOTE]
-> Currently, there are no planned improvements or known bugs. If you encounter any issues, please report them on our [issues page](https://github.com/mearashadowfax/ScrewFast/issues) or [start a discussion](https://github.com/mearashadowfax/ScrewFast/discussions/new/choose) to share ideas, suggestions, or ask questions.
+> Currently, there are no planned improvements or known bugs. If you encounter any issues, please report them on our [issues page](https://github.com/SequoiaMC-CN/Website/issues) or [start a discussion](https://github.com/SequoiaMC-CN/Website/discussions/new/choose) to share ideas, suggestions, or ask questions.
   
 ## Getting Started
 
@@ -168,11 +168,11 @@ Click the button below to start deploying your project on Vercel:
 
 Click the button below to start deploying your project on Netlify:  
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mearashadowfax/ScrewFast)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/SequoiaMC-CN/Website)
 
 ## Project Structure
 
-ScrewFast organizes modular components, content, and layouts to streamline development and content management.
+SequoiaMC organizes modular components, content, and layouts to streamline development and content management.
 
 ```md
 
@@ -221,7 +221,7 @@ public/
 
 ## Customization
 
-ScrewFast allows for easy customization to suit your specific needs. Here are a couple of ways you can configure components and content:
+SequoiaMC allows for easy customization to suit your specific needs. Here are a couple of ways you can configure components and content:
 
 ### Editing Component Variables
 
@@ -231,7 +231,7 @@ Some components have properties defined as TypeScript variables within the compo
 // Define the string variables title and subTitle for the main heading and sub-heading text.
 const title: string = "Meeting Industry Demands";
 const subTitle: string =
-  "At ScrewFast, we tackle the unique challenges encountered in the hardware and construction sectors.";
+  "At SequoiaMC, we tackle the unique challenges encountered in the hardware and construction sectors.";
 ```
 
 For collections of content like testimonials or statistics, edit the corresponding array of objects:
@@ -339,14 +339,14 @@ We have two options for the navigation bar components: `Navbar.astro` for a regu
 
 The `Navbar.astro` and `NavbarMegaMenu.astro` components can be configured within `MainLayout.astro`, allowing you to choose the style of navigation that best suits your project. To customize these components, you can modify them directly under `src/components/sections/navbar&footer` to apply specific configurations or design updates.
 
-![ScrewFast MegaMenu](https://github.com/user-attachments/assets/690482af-f1a4-4ebf-be58-eca0b5862973)
+![SequoiaMC MegaMenu](https://github.com/user-attachments/assets/690482af-f1a4-4ebf-be58-eca0b5862973)
 
 
 ## Integrations and Enhancements
 
 ### Starlight Documentation
 
-ScrewFast is now equipped with Starlight, designed to elevate the user experience with documentation. This modern and elegant theme includes a suite of features to make content more accessible and enjoyable to navigate.
+SequoiaMC is now equipped with Starlight, designed to elevate the user experience with documentation. This modern and elegant theme includes a suite of features to make content more accessible and enjoyable to navigate.
 
 Key Features:
 
@@ -453,7 +453,7 @@ Additionally, update the `<html>` tag to remove the `scrollbar-hide` class, resu
 
 ### SEO Configuration
 
-The SEO Configuration in the ScrewFast template is designed to empower users in optimizing their website's visibility on search engines and social media platforms. This documentation outlines the implementation details and usage instructions for effectively managing SEO settings.
+The SEO Configuration in the SequoiaMC template is designed to empower users in optimizing their website's visibility on search engines and social media platforms. This documentation outlines the implementation details and usage instructions for effectively managing SEO settings.
 
 #### Using constants.ts
 
@@ -465,7 +465,7 @@ To customize SEO settings, modify the values in the `constants.ts` file. Key con
 // constants.ts
 
 export const SITE = {
-  title: "ScrewFast",
+  title: "SequoiaMC",
   // Other SITE properties...
 };
 
@@ -532,8 +532,8 @@ Structured data in JSON-LD format can be managed by the `Meta.astro` component, 
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "ScrewFast",
-    "url": "https://screwfast.uk",
+    "name": "SequoiaMC",
+    "url": "https://sequoiamc.cn",
     "description": "Discover top-quality hardware tools and services"
   }}
 >
@@ -693,6 +693,6 @@ If you're interested in helping, you can contribute in several ways:
 
 ## License
 
-This project is released under the MIT License. Please read the [LICENSE](https://github.com/mearashadowfax/ScrewFast/blob/main/LICENSE) file for more details.
+This project is released under the MIT License. Please read the [LICENSE](https://github.com/SequoiaMC-CN/Website/blob/main/LICENSE) file for more details.
 
 **Note:** This website template has no affiliation with the companies displayed. Logos are used for demonstration purposes only and should be replaced in customized versions.
